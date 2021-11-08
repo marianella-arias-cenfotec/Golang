@@ -19,4 +19,9 @@ $ go get github.com/gorilla/mux
 ## Install Docker
 Install Docker wsl2 https://docs.docker.com/desktop/windows/install/
 
+# Build Docker
+$ docker build -t awesomeproject .
+
+# Run Docker
+$ docker run -p 8080 :8000 awesomeproject
 
